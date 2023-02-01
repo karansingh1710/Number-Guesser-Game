@@ -1,5 +1,3 @@
-package LiveClass30Jan;
-
 import java.util.Scanner;
 /*
 This is the guesser class which guess the number it contains one variable and one method
