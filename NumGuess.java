@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// This is the Demo for chaging the code
 /*
 This is the guesser class which guess the number it contains one variable and one method
 Variable stores the guessed num
