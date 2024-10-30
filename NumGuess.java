@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 // This is the Demo for chaging the code
@@ -13,9 +14,11 @@ class Guesser {
     // guessed, and return it to the umpire
 
     int guessingNumber() {
-        System.out.println("Guesser kindly guess the number");
+        System.out.println("Guesser guessed the number");
         Scanner sc = new Scanner(System.in);
-        guessedNum = sc.nextInt();
+        Random randomNum=new Random();
+        guessedNum = randomNum.nextInt(100);
+        System.out.println(guessedNum);
         NumGuess.printStar();
         return guessedNum;
     }
